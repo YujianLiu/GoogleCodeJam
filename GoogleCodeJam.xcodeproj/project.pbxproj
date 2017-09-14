@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360685911F5130B40017EC53 /* WordSearch2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685901F5130B40017EC53 /* WordSearch2.cpp */; };
+		360685941F51363E0017EC53 /* Exist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685931F51363E0017EC53 /* Exist.cpp */; };
+		360685961F5136ED0017EC53 /* FindMaxAverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685951F5136ED0017EC53 /* FindMaxAverage.cpp */; };
+		360685981F51373B0017EC53 /* SetZeroes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685971F51373B0017EC53 /* SetZeroes.cpp */; };
+		3606859A1F5137B80017EC53 /* GameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685991F5137B80017EC53 /* GameOfLife.cpp */; };
+		3606859C1F51381E0017EC53 /* FindRepeatedDnaSequences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3606859B1F51381E0017EC53 /* FindRepeatedDnaSequences.cpp */; };
+		3606859E1F51C98D0017EC53 /* CountUnivalSubtrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3606859D1F51C98D0017EC53 /* CountUnivalSubtrees.cpp */; };
+		360685A01F51D3290017EC53 /* IsSubtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3606859F1F51D3290017EC53 /* IsSubtree.cpp */; };
+		360685A21F51F06B0017EC53 /* MostFrequentSubtreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685A11F51F06B0017EC53 /* MostFrequentSubtreeSum.cpp */; };
+		360685A41F5214620017EC53 /* MinimumWindowSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685A31F5214620017EC53 /* MinimumWindowSubstring.cpp */; };
+		360685A61F5258B10017EC53 /* Non-decreasingArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685A51F5258B10017EC53 /* Non-decreasingArray.cpp */; };
+		360685A81F525F720017EC53 /* PathSumIV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685A71F525F720017EC53 /* PathSumIV.cpp */; };
+		360685AD1F5274330017EC53 /* BeautifulArrangement2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685AC1F5274330017EC53 /* BeautifulArrangement2.cpp */; };
+		360685AF1F527B940017EC53 /* Kth largest Number in Multiplication Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685AE1F527B930017EC53 /* Kth largest Number in Multiplication Table.cpp */; };
+		36D18A681F54C5520017032F /* 621. Task Scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A671F54C5520017032F /* 621. Task Scheduler.cpp */; };
+		36D18A6A1F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A691F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp */; };
+		36D18A6C1F5503C70017032F /* 134. Gas Station.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */; };
+		36D18A6E1F550BC40017032F /* 45. Jump Game II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A6D1F550BC40017032F /* 45. Jump Game II.cpp */; };
+		36D18A701F561E0F0017032F /* 207. Course Schedule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A6F1F561E0F0017032F /* 207. Course Schedule.cpp */; };
+		36D18A721F5667840017032F /* 261. Graph Valid Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A711F5667840017032F /* 261. Graph Valid Tree.cpp */; };
+		36D18A741F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A731F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp */; };
+		36D18A781F57A5AF0017032F /* 657. Judge Route Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */; };
+		36D18A7A1F57A8660017032F /* 32. Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */; };
 		36ECE6881E9712830064A628 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36ECE6871E9712830064A628 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +46,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		360685901F5130B40017EC53 /* WordSearch2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordSearch2.cpp; sourceTree = "<group>"; };
+		360685921F5130DE0017EC53 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		360685931F51363E0017EC53 /* Exist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exist.cpp; sourceTree = "<group>"; };
+		360685951F5136ED0017EC53 /* FindMaxAverage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMaxAverage.cpp; sourceTree = "<group>"; };
+		360685971F51373B0017EC53 /* SetZeroes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetZeroes.cpp; sourceTree = "<group>"; };
+		360685991F5137B80017EC53 /* GameOfLife.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfLife.cpp; sourceTree = "<group>"; };
+		3606859B1F51381E0017EC53 /* FindRepeatedDnaSequences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindRepeatedDnaSequences.cpp; sourceTree = "<group>"; };
+		3606859D1F51C98D0017EC53 /* CountUnivalSubtrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountUnivalSubtrees.cpp; sourceTree = "<group>"; };
+		3606859F1F51D3290017EC53 /* IsSubtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsSubtree.cpp; sourceTree = "<group>"; };
+		360685A11F51F06B0017EC53 /* MostFrequentSubtreeSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MostFrequentSubtreeSum.cpp; sourceTree = "<group>"; };
+		360685A31F5214620017EC53 /* MinimumWindowSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinimumWindowSubstring.cpp; sourceTree = "<group>"; };
+		360685A51F5258B10017EC53 /* Non-decreasingArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Non-decreasingArray.cpp"; sourceTree = "<group>"; };
+		360685A71F525F720017EC53 /* PathSumIV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PathSumIV.cpp; sourceTree = "<group>"; };
+		360685AC1F5274330017EC53 /* BeautifulArrangement2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeautifulArrangement2.cpp; sourceTree = "<group>"; };
+		360685AE1F527B930017EC53 /* Kth largest Number in Multiplication Table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Kth largest Number in Multiplication Table.cpp"; sourceTree = "<group>"; };
+		36D18A671F54C5520017032F /* 621. Task Scheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "621. Task Scheduler.cpp"; sourceTree = "<group>"; };
+		36D18A691F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "358. Rearrange String k Distance Apart.cpp"; sourceTree = "<group>"; };
+		36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "134. Gas Station.cpp"; sourceTree = "<group>"; };
+		36D18A6D1F550BC40017032F /* 45. Jump Game II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "45. Jump Game II.cpp"; sourceTree = "<group>"; };
+		36D18A6F1F561E0F0017032F /* 207. Course Schedule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "207. Course Schedule.cpp"; sourceTree = "<group>"; };
+		36D18A711F5667840017032F /* 261. Graph Valid Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "261. Graph Valid Tree.cpp"; sourceTree = "<group>"; };
+		36D18A731F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "323. Number of Connected Components in an Undirected Graph.cpp"; sourceTree = "<group>"; };
+		36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "657. Judge Route Circle.cpp"; sourceTree = "<group>"; };
+		36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "32. Longest Valid Parentheses.cpp"; sourceTree = "<group>"; };
 		36ECE6841E9712830064A628 /* GoogleCodeJam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoogleCodeJam; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ECE6871E9712830064A628 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +105,30 @@
 			isa = PBXGroup;
 			children = (
 				36ECE6871E9712830064A628 /* main.cpp */,
+				3606859B1F51381E0017EC53 /* FindRepeatedDnaSequences.cpp */,
+				360685901F5130B40017EC53 /* WordSearch2.cpp */,
+				360685921F5130DE0017EC53 /* Header.h */,
+				360685931F51363E0017EC53 /* Exist.cpp */,
+				360685951F5136ED0017EC53 /* FindMaxAverage.cpp */,
+				360685971F51373B0017EC53 /* SetZeroes.cpp */,
+				360685991F5137B80017EC53 /* GameOfLife.cpp */,
+				3606859D1F51C98D0017EC53 /* CountUnivalSubtrees.cpp */,
+				3606859F1F51D3290017EC53 /* IsSubtree.cpp */,
+				360685A11F51F06B0017EC53 /* MostFrequentSubtreeSum.cpp */,
+				360685A31F5214620017EC53 /* MinimumWindowSubstring.cpp */,
+				360685A51F5258B10017EC53 /* Non-decreasingArray.cpp */,
+				360685A71F525F720017EC53 /* PathSumIV.cpp */,
+				360685AC1F5274330017EC53 /* BeautifulArrangement2.cpp */,
+				360685AE1F527B930017EC53 /* Kth largest Number in Multiplication Table.cpp */,
+				36D18A671F54C5520017032F /* 621. Task Scheduler.cpp */,
+				36D18A691F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp */,
+				36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */,
+				36D18A6D1F550BC40017032F /* 45. Jump Game II.cpp */,
+				36D18A6F1F561E0F0017032F /* 207. Course Schedule.cpp */,
+				36D18A711F5667840017032F /* 261. Graph Valid Tree.cpp */,
+				36D18A731F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp */,
+				36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */,
+				36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */,
 			);
 			path = GoogleCodeJam;
 			sourceTree = "<group>";
@@ -119,7 +190,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360685A81F525F720017EC53 /* PathSumIV.cpp in Sources */,
+				36D18A681F54C5520017032F /* 621. Task Scheduler.cpp in Sources */,
+				36D18A6C1F5503C70017032F /* 134. Gas Station.cpp in Sources */,
+				3606859C1F51381E0017EC53 /* FindRepeatedDnaSequences.cpp in Sources */,
+				36D18A781F57A5AF0017032F /* 657. Judge Route Circle.cpp in Sources */,
+				36D18A6A1F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp in Sources */,
+				360685A01F51D3290017EC53 /* IsSubtree.cpp in Sources */,
+				3606859A1F5137B80017EC53 /* GameOfLife.cpp in Sources */,
+				36D18A741F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp in Sources */,
+				36D18A721F5667840017032F /* 261. Graph Valid Tree.cpp in Sources */,
+				360685911F5130B40017EC53 /* WordSearch2.cpp in Sources */,
+				360685A61F5258B10017EC53 /* Non-decreasingArray.cpp in Sources */,
+				360685A41F5214620017EC53 /* MinimumWindowSubstring.cpp in Sources */,
+				36D18A701F561E0F0017032F /* 207. Course Schedule.cpp in Sources */,
+				360685961F5136ED0017EC53 /* FindMaxAverage.cpp in Sources */,
 				36ECE6881E9712830064A628 /* main.cpp in Sources */,
+				360685AF1F527B940017EC53 /* Kth largest Number in Multiplication Table.cpp in Sources */,
+				360685AD1F5274330017EC53 /* BeautifulArrangement2.cpp in Sources */,
+				3606859E1F51C98D0017EC53 /* CountUnivalSubtrees.cpp in Sources */,
+				360685A21F51F06B0017EC53 /* MostFrequentSubtreeSum.cpp in Sources */,
+				360685981F51373B0017EC53 /* SetZeroes.cpp in Sources */,
+				36D18A7A1F57A8660017032F /* 32. Longest Valid Parentheses.cpp in Sources */,
+				360685941F51363E0017EC53 /* Exist.cpp in Sources */,
+				36D18A6E1F550BC40017032F /* 45. Jump Game II.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +342,7 @@
 				36ECE68D1E9712830064A628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
