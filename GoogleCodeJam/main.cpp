@@ -673,7 +673,7 @@ void printList(ListNode* head)
 
 vector<int> makeVector()
 {
-    int myints[] = {4,5,7,8,6,3,2,10,9,1};
+    int myints[] = {1,1,1,2,2,2,3,3,3};
     vector<int> myVec(myints, myints + sizeof(myints) / sizeof(int));
     return myVec;
 }
@@ -810,8 +810,8 @@ int main()
     
     string s("");*/
     vector<int> m = makeVector();
-    vector<vector<int>> mm;
-    mm.push_back(m);
+    vector<vector<int>> mm = {{54581641,64080174,24346381,69107959},{86374198,61363882,68783324,79706116},{668150,92178815,89819108,94701471},{83920491,22724204,46281641,47531096},{89078499,18904913,25462145,60813308}};
+    
    /* auto answer = searchRange(m, 8);
     vector<Interval> intervals;
     for (int i = 0; i < 5; ++i) {
@@ -833,10 +833,18 @@ int main()
     words.push_back("makes");
     string word1("coding");
     string word2("practice");
-    WordDistance obj = WordDistance(words);
-    int param_1 = obj.shortest(word1,word2);
-    cout << sequenceReconstruction(m, mm) << endl;
-   
+    MapSum obj = MapSum();
+     obj.insert("apple", 3);
+    //cout << obj.sum("ap");
+    vector<int> mmm{3,4,6,7};
+    //cout << validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga") << endl;
+   // cout << checkValidString("(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())");
+   // vector<string> results = findStrobogrammatic(3);
+    vector<string> results{""};
+    
+    Codec obj2;
+    obj2.decode(obj2.encode(results));
+    
     return 0;
 }
 

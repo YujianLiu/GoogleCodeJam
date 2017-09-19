@@ -9,28 +9,47 @@
 #include "Header.h"
 
 int findNumberOfLIS(vector<int>& nums) {
-    int NumberOfLIS = 1, Size_Of_LIS = 1, Size_Of_Nums = nums.size();
-    if(Size_Of_Nums == 0)
-        return 0;
-    vector<int> Record_Of_LIS(Size_Of_Nums, 1);
-    for (int index = nums.size() - 2; index >= 0 ; index--) {
-        for(int search = index; search < nums.size(); search++)
-        {
-            if(nums[index] < nums[search])
-            {
-                Record_Of_LIS[index] = max(Record_Of_LIS[search] + 1, Record_Of_LIS[index]);
-                if(Record_Of_LIS[index] == Size_Of_LIS)
-                    NumberOfLIS++;
-                else if(Record_Of_LIS[index] > Size_Of_LIS)
-                {
-                    Size_Of_LIS = Record_Of_LIS[index];
-                    NumberOfLIS = 1;
+    
+    int Size_Of_Nums = nums.size(), result = 0, longest = 0;
+    vector<pair<int ,pair<int, int>>> Table(Size_Of_Nums, {{},{1,1}});
+    
+    for (int Index = 0; Index < Size_Of_Nums; Index++) {
+        
+        Table[Index].first = nums[Index];
+        int Temp_Length = 0, Temp_Num = 0;
+        
+        for(int Search_Index = 0; Search_Index < Index; Search_Index++){
+            
+            if (Table[Search_Index].first < nums[Index]) {
+                
+                if(Temp_Length == Table[Search_Index].second.first){
+                    Temp_Num += Table[Search_Index].second.second;
                 }
+                else if (Temp_Length < Table[Search_Index].second.first)
+                {
+                    Temp_Num = Table[Search_Index].second.second;
+                }
+                Temp_Length = max(Temp_Length, Table[Search_Index].second.first);
                 
             }
         }
+        
+        Table[Index].second.first = Temp_Length + 1;
+        Table[Index].second.second = max(Temp_Num, 1);
+        
+        if(longest < Table[Index].second.first){
+            
+            longest = Table[Index].second.first;
+            result = Table[Index].second.second;
+            
+        }
+        else if (longest == Table[Index].second.first){
+            
+            result += Table[Index].second.second;
+        }
     }
-    return NumberOfLIS;
+    
+    return result;
 }
 /*
  if(nums.empty())

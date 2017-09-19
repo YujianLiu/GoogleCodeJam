@@ -98,6 +98,8 @@ int minSubArrayLen(int s, vector<int>& nums);
 bool checkInclusion(string s1, string s2);
 int lengthOfLongestSubstringTwoDistinct(string s);
 bool sequenceReconstruction(vector<int>& org, vector<vector<int>>& seqs);
+int cutOffTree(vector<vector<int>>& forest);
+bool validPalindrome(string s);
 
 class WordDistance {
 public:
@@ -134,5 +136,68 @@ public:
     unordered_map<string, int> Word_Index;
     vector<vector<int>> Distance_Map;
 };
+
+class MapSum {
+public:
+    /** Initialize your data structure here. */
+    MapSum() {
+        
+    }
+    
+    void insert(string key, int val) {
+        if (find(Name_List.begin(), Name_List.end(), key) == Name_List.end()) {
+            Name_List.push_back(key);
+        }
+        Mapsum[key] = val;
+    }
+    
+    int sum(string prefix) {
+        int sum = 0;
+        for(auto name : Name_List){
+            bool ispre = true;
+            for(int Index = 0; Index < prefix.size(); Index++ ){
+                if(prefix.size() > name.size())
+                {
+                    ispre = false;
+                    break;
+                }
+                else
+                {
+                    if (prefix[Index] != name[Index]) {
+                        ispre = false;
+                        break;
+                    }
+                }
+            }
+            if(ispre == true){
+                sum += Mapsum[name];
+            }
+        }
+        return sum;
+    }
+private:
+    unordered_map<string, int> Mapsum;
+    vector<string> Name_List;
+};
+int findNumberOfLIS(vector<int>& nums);
+bool judgePoint24(vector<int>& nums);
+bool checkValidString(string s);
+vector<string> findStrobogrammatic(int n);
+vector<vector<int>> getFactors(int n);
+bool verifyPreorder(vector<int>& preorder);
+int threeSumSmaller(vector<int>& nums, int target) ;
+vector<string> generatePalindromes(string s);
+
+class Codec {
+public:
+    
+    // Encodes a list of strings to a single string.
+    string encode(vector<string>& strs);
+    
+    
+    // Decodes a single string to a list of strings.
+    vector<string> decode(string s);
+    };
+
 
 #endif /* Header_h */
