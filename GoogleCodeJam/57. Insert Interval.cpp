@@ -15,7 +15,7 @@ struct mycompare{
     }
 }myComp2;
 vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) {
-    int mergeFlag = 1;
+    int mergeFlag = 1, numOfIntervals = intervals.size();
     vector<Interval> result;
     unordered_map<int, int> intervalsToRemove;
     while (mergeFlag) {
