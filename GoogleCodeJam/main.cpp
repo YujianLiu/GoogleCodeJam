@@ -457,206 +457,8 @@ string helper(map<char,int> horses, string current,int size)
     return "IMPOSSIBLE";
 }
 
-int maximalRectangle(vector< vector<char> >& matrix) {
-    if(matrix.empty()) return 0;
-    int row = matrix.size() , col = matrix[0].size();
-    int res=0;
-    vector<int> left(col,0),right(col,col),height(row,0);
-    for(int i=0;i<row;i++)
-    {
-        int cur_left=0,cur_right=col;
-        for(int j=0;j<col;j++)
-        {
-            if(matrix[i][j]=='1') height[j]++;
-            else height[j]=0;
-        }
-        
-        for(int j=0;j<col;j++)
-        {
-            if(matrix[i][j]=='1'){left[j]=max(left[j],cur_left);}
-            else {left[j]=0;cur_left=j+1;}
-        }
-        
-        for(int j=col-1;j>=0;j--)
-        {
-            if(matrix[i][j]=='1'){right[j]=min(right[j],cur_right);}
-            else {right[j]=col;cur_right=j;}
-        }
-        
-        for(int j=0;j<col;j++)
-        {
-            res = max(res,(right[j]-left[j])*height[j]);
-        }
-        
-        
-    }
-    return res;
-}
-
-int strongPasswordChecker(string s)
-{
-    int addTarget = max(0,6-(int)s.size()),deleteTarget = max(0, (int)s.size()-20);
-    int toAdd = 0, toDelete = 0, toReplace = 0, needUpper = 1, needLower = 1, needDigit = 1;
-    for(int l=0,r=0;r<s.size();r++)
-    {
-        if(isupper(s[r])) { needUpper = 0; }
-        if(islower(s[r])) { needLower = 0; }
-        if(isdigit(s[r])) { needDigit = 0; }
-        
-        if(r - l == 2)
-        {
-            if(s[l] == s[l+1] && s[l+1] == s[r])
-            {
-                if(toAdd < addTarget) { toAdd++; l = r; }
-                else { toReplace++; l = r + 1; }
-            }
-            else
-            {
-                l++;
-            }
-        }
-    }
-    
-    if(s.length()<=20) { return max(toAdd + toReplace, needUpper + needLower + needDigit); }
-    
-    toReplace = 0;
-    
-    vector< unordered_map<int, int> > lenCnt(3);
-    for(int l = 0, r = 0, len; r <= s.size(); r++)
-    {
-        if(r == s.size() || s[l] != s[r])
-        {
-            if((len = r - l) > 2){
-                lenCnt[len % 3][len]++;
-            }
-            l = r;
-        }
-    }
-    
-    for (int i = 0, numLetters, dec; i < 3; i++) {
-        for(auto it = lenCnt[i].begin(); it != lenCnt[i].end(); it++)
-        {
-            if(i < 2)
-            {
-                numLetters = i + 1; dec = min(it->second, (deleteTarget - toDelete) / numLetters);
-                toDelete += dec * numLetters;
-                it->second -= dec;
-                
-                if (it->first - numLetters > 2) { lenCnt[2][it->first - numLetters] += dec; }
-            }
-            
-            toReplace =+ (it->second) * ((it->first) / 3);
-        }
-    }
-    
-    int dec = (deleteTarget - toDelete) / 3;
-    toReplace -= dec;
-    toDelete -= dec * 3;
-    return deleteTarget + max(toReplace, needDigit + needLower + needUpper);
-}
-
-int minDistance(string word1, string word2) {
-    int m = word1.size(), n = word2.size();
-    vector< vector<int> > dp(m+1,vector<int> (n+1,0));
-    for (int i = 1; i <= m; i++)
-    {
-        dp[i][0] = i;
-    }
-    for (int i = 1; i <= n; i++)
-    {
-        dp[0][i] = i;
-    }
-    for (int i = 1; i <= m; i++)
-    {
-        for (int j = 1; j <= n; j++)
-        {
-            if (word1[i - 1] == word2[j - 1]) {
-                dp[i][j] = dp[i - 1][j - 1];
-            }
-            else
-            {
-                dp[i][j] = min(dp[i - 1][j - 1]+1, min(dp[i - 1][j]+1, dp[i][j - 1] + 1));
-            }
-        }
-    }
-    
-    return dp[m][n];
-    
-}
-
-int singleNonDuplicate(vector<int>& nums)
-{
-    int l = 0, r = nums.size()-1, mid = (l + r) / 2;
-    while (l < r)
-    {
-        if (nums[mid] == nums[mid + 1])
-        {
-            if ((mid - 1) % 2 == 0)
-            {
-                r = mid - 1;
-            }
-            else
-            {
-                l = mid + 2;
-            }
-        }
-        else if (nums[mid] == nums[mid - 1])
-        {
-            if ((mid - 1) % 2 ==0)
-            {
-                l = mid + 1;
-            }
-            else
-            {
-                r = mid - 2;
-            }
-        }
-        else
-        {
-            return nums[mid];
-        }
-        mid = (l + r) / 2;
-        
-    }
-    return nums[l];
-    
-}
 
 
-ListNode* insertionSortList(ListNode* head)
-{
-    ListNode* currentPtr = head, newHead(0), *prevPtr = &newHead;
-    newHead.next = currentPtr;
-    head = head->next;
-    currentPtr->next = NULL;
-    while(head)
-    {
-        if(head->val > currentPtr->val && currentPtr->next != NULL)
-        {
-            prevPtr = currentPtr;
-            currentPtr = currentPtr->next;
-        }
-        else if(head->val > currentPtr->val && currentPtr->next == NULL)
-        {
-            currentPtr->next = head;
-            head = head->next;
-            prevPtr = &newHead;
-            currentPtr->next->next = NULL;
-            currentPtr = prevPtr->next;
-        }
-        else
-        {
-            ListNode* temp = head;
-            head = head->next;
-            prevPtr->next = temp;
-            temp->next = currentPtr;
-            prevPtr = &newHead;
-            currentPtr = newHead.next;
-        }
-    }
-    
-    return newHead.next;
-}
 
 void printList(ListNode* head)
 {
@@ -678,21 +480,6 @@ vector<int> makeVector()
     return myVec;
 }
 
-
-bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
-    set<long> window;
-    for(int i = 0; i < nums.size(); i++)
-    {
-        if (i > k) {
-            window.erase(nums[i-k-1]);
-        }
-        
-        auto pos = window.lower_bound((long)nums[i]-(long)t);
-        if(pos != window.end() && *pos - nums[i] <=  t)  return true;
-        window.insert(nums[i]);
-    }
-    return false;
-}
 
 void inOrderTraverse(TreeNode* root)
 {
@@ -784,17 +571,20 @@ int main()
     // for(auto word : words)
     //    cout << word << endl;
     char myChar[] = {'A','A','A','A','A','A','B','C','D','E','F','G'};
-    vector<char> tasks(myChar, myChar + sizeof(myChar) / sizeof(char));
-    TreeNode a(3), b(4), c(5), d(1), e(2), f(0), g(4), h(1), i(2);
-    a.left = &b;
-    a.right = &c;
-    b.left = &d;
-    b.right = &e;
-    d.left = &f;
-    g.left = &h;
-    g.right = &i;
+    vector<char> tasks(myChar, myChar + sizeof(myChar) / sizeof(char));*/
+    TreeNode a(1), b(2), c(3), d(4), e(5), f(0), g(4), h(1), i(2);
+    a.left = NULL;
+    a.right = NULL;
+    b.left = NULL;
+    b.right = NULL;
+    c.left = &b;
+    c.right = &d;
+    d.left = NULL;
+    d.right = &e;
+    e.left = NULL;
+    e.right = NULL;
     
-    vector<vector<int>> prerequisites;
+    /*vector<vector<int>> prerequisites;
     for(int i = 0; i < 15; ++i)
     {
         vector<int> a1;
@@ -842,9 +632,10 @@ int main()
    // vector<string> results = findStrobogrammatic(3);
     vector<string> results{""};
     
-    Codec obj2;
-    obj2.decode(obj2.encode(results));
+    //Codec obj2;
+   // obj2.decode(obj2.encode(results));
     
+    cout << longestConsecutive(&a);
     return 0;
 }
 

@@ -198,6 +198,16 @@ public:
     // Decodes a single string to a list of strings.
     vector<string> decode(string s);
     };
+class ValidWordAbbr {
+public:
+    ValidWordAbbr(vector<string> dictionary);
+    bool isUnique(string word);
+private:
+    unordered_map<string, vector<int>> Simple_Dictionary;
+    vector<string> dic;
+};
 
+bool canWin(string s);
+int longestConsecutive(TreeNode* root);
 
 #endif /* Header_h */
