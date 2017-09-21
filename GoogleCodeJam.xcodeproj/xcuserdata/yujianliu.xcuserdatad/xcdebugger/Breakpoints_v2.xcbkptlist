@@ -10,11 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleCodeJam/main.cpp"
-            timestampString = "527628434.454858"
+            timestampString = "525458505.148485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "677"
-            endingLineNumber = "677">
+            endingLineNumber = "677"
+            landmarkName = "makeVector()"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -24,11 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleCodeJam/main.cpp"
-            timestampString = "527628434.454988"
+            timestampString = "525458505.148485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "755"
-            endingLineNumber = "755">
+            endingLineNumber = "755"
+            landmarkName = "findMaxAverage2(vector&lt;int&gt;&amp; nums, int k)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -38,11 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleCodeJam/main.cpp"
-            timestampString = "527628434.455116"
+            timestampString = "525458505.148485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "734"
-            endingLineNumber = "734">
+            endingLineNumber = "734"
+            landmarkName = "findMaxAverage2(vector&lt;int&gt;&amp; nums, int k)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -52,11 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleCodeJam/main.cpp"
-            timestampString = "527628434.45518"
+            timestampString = "525458505.148485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "740"
-            endingLineNumber = "740">
+            endingLineNumber = "740"
+            landmarkName = "findMaxAverage2(vector&lt;int&gt;&amp; nums, int k)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -66,11 +74,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GoogleCodeJam/main.cpp"
-            timestampString = "527628434.45525"
+            timestampString = "525458505.148485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "738"
-            endingLineNumber = "738">
+            endingLineNumber = "738"
+            landmarkName = "findMaxAverage2(vector&lt;int&gt;&amp; nums, int k)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -228,102 +238,6 @@
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "findCircleNum(vector&lt;vector&lt;int&gt;&gt;&amp; M)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GoogleCodeJam/294.cpp"
-            timestampString = "527612140.220826"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "canWin(string s)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GoogleCodeJam/298. Binary Tree Longest Consecutive Sequence.cpp"
-            timestampString = "527628434.455521"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "longestConsecutive(TreeNode* root)"
-            landmarkType = "9">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "longestConsecutive(TreeNode*)"
-                  moduleName = "GoogleCodeJam"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yujianliu/Documents/GoogleCodeJam/GoogleCodeJam/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence.cpp"
-                  timestampString = "527628368.342153"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "3459">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "longestConsecutive(TreeNode*)"
-                  moduleName = "GoogleCodeJam"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yujianliu/Documents/GoogleCodeJam/GoogleCodeJam/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence.cpp"
-                  timestampString = "527628368.345236"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "3886">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GoogleCodeJam/298. Binary Tree Longest Consecutive Sequence.cpp"
-            timestampString = "527628434.456075"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "recursive_298(TreeNode* root)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GoogleCodeJam/298. Binary Tree Longest Consecutive Sequence.cpp"
-            timestampString = "527628434.45644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "longestConsecutive(TreeNode* root)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
