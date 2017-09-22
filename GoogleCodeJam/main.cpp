@@ -481,15 +481,15 @@ vector<int> makeVector()
 }
 
 
-void inOrderTraverse(TreeNode* root)
+void InOrderTraverse(TreeNode* root)
 {
     if(root->left)
-    inOrderTraverse(root->left);
+    InOrderTraverse(root->left);
     
     cout << root->val;
     
     if(root->right)
-        inOrderTraverse(root->right);
+        InOrderTraverse(root->right);
 }
 
 
@@ -573,12 +573,12 @@ int main()
     char myChar[] = {'A','A','A','A','A','A','B','C','D','E','F','G'};
     vector<char> tasks(myChar, myChar + sizeof(myChar) / sizeof(char));*/
     TreeNode a(1), b(2), c(3), d(4), e(5), f(0), g(4), h(1), i(2);
-    a.left = NULL;
-    a.right = NULL;
+    a.left = &b;
+    a.right = &c;
     b.left = NULL;
     b.right = NULL;
-    c.left = &b;
-    c.right = &d;
+    c.left = NULL;
+    c.right = NULL;
     d.left = NULL;
     d.right = &e;
     e.left = NULL;
@@ -635,7 +635,8 @@ int main()
     //Codec obj2;
    // obj2.decode(obj2.encode(results));
     
-    cout << longestConsecutive(&a);
+    recoverTree(&a);
+    InOrderTraverse(&a);
     return 0;
 }
 

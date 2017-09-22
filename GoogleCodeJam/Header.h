@@ -209,5 +209,5 @@ private:
 
 bool canWin(string s);
 int longestConsecutive(TreeNode* root);
-
+void recoverTree(TreeNode* root);
 #endif /* Header_h */
