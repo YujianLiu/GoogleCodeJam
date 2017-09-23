@@ -210,4 +210,7 @@ private:
 bool canWin(string s);
 int longestConsecutive(TreeNode* root);
 void recoverTree(TreeNode* root);
+int numSquares(int n);
+int minimumTotal(vector<vector<int>>& triangle);
+
 #endif /* Header_h */

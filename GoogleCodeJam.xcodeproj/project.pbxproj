@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A79B31B1F756C450025CBAB /* 279. Perfect Squares.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B31A1F756C450025CBAB /* 279. Perfect Squares.cpp */; };
+		0A79B31D1F7584FE0025CBAB /* 120. Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B31C1F7584FE0025CBAB /* 120. Triangle.cpp */; };
+		0A79B31F1F7589C90025CBAB /* 306. Additive Number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B31E1F7589C90025CBAB /* 306. Additive Number.cpp */; };
 		0A881B6C1F6B0E5D008CCA08 /* 675. Cut Off Trees for Golf Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A881B4B1F6B0E5C008CCA08 /* 675. Cut Off Trees for Golf Event.cpp */; };
 		0A881B6D1F6B0E5D008CCA08 /* 673. Number of Longest Increasing Subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A881B4C1F6B0E5C008CCA08 /* 673. Number of Longest Increasing Subsequence.cpp */; };
 		0A881B6E1F6B0E5D008CCA08 /* 676. Implement Magic Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A881B4D1F6B0E5C008CCA08 /* 676. Implement Magic Dictionary.cpp */; };
@@ -103,6 +106,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A79B31A1F756C450025CBAB /* 279. Perfect Squares.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "279. Perfect Squares.cpp"; sourceTree = "<group>"; };
+		0A79B31C1F7584FE0025CBAB /* 120. Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "120. Triangle.cpp"; sourceTree = "<group>"; };
+		0A79B31E1F7589C90025CBAB /* 306. Additive Number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "306. Additive Number.cpp"; sourceTree = "<group>"; };
 		0A881B4B1F6B0E5C008CCA08 /* 675. Cut Off Trees for Golf Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "675. Cut Off Trees for Golf Event.cpp"; sourceTree = "<group>"; };
 		0A881B4C1F6B0E5C008CCA08 /* 673. Number of Longest Increasing Subsequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "673. Number of Longest Increasing Subsequence.cpp"; sourceTree = "<group>"; };
 		0A881B4D1F6B0E5C008CCA08 /* 676. Implement Magic Dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "676. Implement Magic Dictionary.cpp"; sourceTree = "<group>"; };
@@ -300,6 +306,9 @@
 				360685921F5130DE0017EC53 /* Header.h */,
 				36ECE6871E9712830064A628 /* main.cpp */,
 				3688CB171F749EF400A20870 /* 229. Majority Element II.cpp */,
+				0A79B31A1F756C450025CBAB /* 279. Perfect Squares.cpp */,
+				0A79B31C1F7584FE0025CBAB /* 120. Triangle.cpp */,
+				0A79B31E1F7589C90025CBAB /* 306. Additive Number.cpp */,
 			);
 			path = GoogleCodeJam;
 			sourceTree = "<group>";
@@ -372,7 +381,9 @@
 				36D18A781F57A5AF0017032F /* 657. Judge Route Circle.cpp in Sources */,
 				3688CB001F720AB500A20870 /* 294. Flip Game II.cpp in Sources */,
 				0A881B881F6B0E5D008CCA08 /* 354. Russian Doll Envelopes.cpp in Sources */,
+				0A79B31D1F7584FE0025CBAB /* 120. Triangle.cpp in Sources */,
 				368031931F71D83B0002F47A /* 267. Palindrome Permutation II.cpp in Sources */,
+				0A79B31B1F756C450025CBAB /* 279. Perfect Squares.cpp in Sources */,
 				3688CB081F72FE1700A20870 /* 420. Strong Password Checker.cpp in Sources */,
 				36D18A6A1F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp in Sources */,
 				360685A01F51D3290017EC53 /* 572. Subtree of Another Tree.cpp in Sources */,
@@ -428,6 +439,7 @@
 				0A881B811F6B0E5D008CCA08 /* 159. Longest Substring with At Most Two Distinct Characters.cpp in Sources */,
 				36D18A7A1F57A8660017032F /* 32. Longest Valid Parentheses.cpp in Sources */,
 				360685941F51363E0017EC53 /* 79. Word Search.cpp in Sources */,
+				0A79B31F1F7589C90025CBAB /* 306. Additive Number.cpp in Sources */,
 				0A881B7F1F6B0E5D008CCA08 /* 325. Maximum Size Subarray Sum Equals k.cpp in Sources */,
 				368031961F71D83B0002F47A /* 679. 24 Game.cpp in Sources */,
 				0A881B6D1F6B0E5D008CCA08 /* 673. Number of Longest Increasing Subsequence.cpp in Sources */,
