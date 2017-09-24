@@ -5,6 +5,13 @@
 //  Created by yujian liu on 8/30/17.
 //  Copyright © 2017 yujian liu. All rights reserved.
 //
+/*
+ Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+ 
+ For "(()", the longest valid parentheses substring is "()", which has length = 2.
+ 
+ Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
+*/
 
 #include "Header.h"
 

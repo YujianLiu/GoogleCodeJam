@@ -475,7 +475,7 @@ void printList(ListNode* head)
 
 vector<int> makeVector()
 {
-    int myints[] = {1,1,1,2,2,2,3,3,3};
+    int myints[] = {6,5,8,9,7,1,10,2,3,4};
     vector<int> myVec(myints, myints + sizeof(myints) / sizeof(int));
     return myVec;
 }
@@ -600,7 +600,7 @@ int main()
     
     string s("");
     vector<int> m = makeVector();
-    vector<vector<int>> mm = {{-10}};
+    vector<vector<int>> mm = {{4,1},{3,5},{5,2},{4,2},{1,3}};
     
    /* auto answer = searchRange(m, 8);
     vector<Interval> intervals;
@@ -626,9 +626,9 @@ int main()
     MapSum obj = MapSum();
      obj.insert("apple", 3);
     //cout << obj.sum("ap");
-    vector<int> mmm{3,4,6,7};
+    
    
-    cout << minimumTotal(mm);
+    cout << nextClosestTime("00:00");
     
     
     return 0;

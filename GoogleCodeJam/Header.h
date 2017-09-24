@@ -213,4 +213,9 @@ void recoverTree(TreeNode* root);
 int numSquares(int n);
 int minimumTotal(vector<vector<int>>& triangle);
 
+//vector<int> findRedundantConnection(vector<vector<int>>& edges);
+int kEmptySlots(vector<int>& flowers, int k);
+string nextClosestTime(string time);
+
+
 #endif /* Header_h */

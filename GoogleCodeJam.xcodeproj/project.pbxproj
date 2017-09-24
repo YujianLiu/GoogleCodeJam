@@ -58,6 +58,10 @@
 		360685A81F525F720017EC53 /* 666. Path Sum IV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685A71F525F720017EC53 /* 666. Path Sum IV.cpp */; };
 		360685AD1F5274330017EC53 /* 667. Beautiful Arrangement II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685AC1F5274330017EC53 /* 667. Beautiful Arrangement II.cpp */; };
 		360685AF1F527B940017EC53 /* 668. Kth Smallest Number in Multiplication Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 360685AE1F527B930017EC53 /* 668. Kth Smallest Number in Multiplication Table.cpp */; };
+		36070DA11F7743A300B98D0E /* 682. Baseball Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36070DA01F7743A300B98D0E /* 682. Baseball Game.cpp */; };
+		36070DA31F7747A000B98D0E /* 681. Next Closest Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36070DA21F7747A000B98D0E /* 681. Next Closest Time.cpp */; };
+		36070DA51F77481800B98D0E /* 684. Redundant Connection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36070DA41F77481800B98D0E /* 684. Redundant Connection.cpp */; };
+		364EBD071F78078E0085505C /* 683. K Empty Slots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 364EBD061F78078E0085505C /* 683. K Empty Slots.cpp */; };
 		368031911F71D83B0002F47A /* 259. 3Sum Smaller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368031871F71D83A0002F47A /* 259. 3Sum Smaller.cpp */; };
 		368031921F71D83B0002F47A /* 254. Factor Combinations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368031881F71D83B0002F47A /* 254. Factor Combinations.cpp */; };
 		368031931F71D83B0002F47A /* 267. Palindrome Permutation II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 368031891F71D83B0002F47A /* 267. Palindrome Permutation II.cpp */; };
@@ -91,6 +95,7 @@
 		36D18A781F57A5AF0017032F /* 657. Judge Route Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */; };
 		36D18A7A1F57A8660017032F /* 32. Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */; };
 		36ECE6881E9712830064A628 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36ECE6871E9712830064A628 /* main.cpp */; };
+		36FA03BB1F78606400DE09CA /* 479. Largest Palindrome Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -158,6 +163,11 @@
 		360685A71F525F720017EC53 /* 666. Path Sum IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "666. Path Sum IV.cpp"; sourceTree = "<group>"; };
 		360685AC1F5274330017EC53 /* 667. Beautiful Arrangement II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "667. Beautiful Arrangement II.cpp"; sourceTree = "<group>"; };
 		360685AE1F527B930017EC53 /* 668. Kth Smallest Number in Multiplication Table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "668. Kth Smallest Number in Multiplication Table.cpp"; sourceTree = "<group>"; };
+		36070D9F1F770A2000B98D0E /* Analyse - 32. Longest Valid Parentheses.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse - 32. Longest Valid Parentheses.rtf"; sourceTree = "<group>"; };
+		36070DA01F7743A300B98D0E /* 682. Baseball Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "682. Baseball Game.cpp"; sourceTree = "<group>"; };
+		36070DA21F7747A000B98D0E /* 681. Next Closest Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "681. Next Closest Time.cpp"; sourceTree = "<group>"; };
+		36070DA41F77481800B98D0E /* 684. Redundant Connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "684. Redundant Connection.cpp"; sourceTree = "<group>"; };
+		364EBD061F78078E0085505C /* 683. K Empty Slots.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "683. K Empty Slots.cpp"; sourceTree = "<group>"; };
 		368031871F71D83A0002F47A /* 259. 3Sum Smaller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "259. 3Sum Smaller.cpp"; sourceTree = "<group>"; };
 		368031881F71D83B0002F47A /* 254. Factor Combinations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "254. Factor Combinations.cpp"; sourceTree = "<group>"; };
 		368031891F71D83B0002F47A /* 267. Palindrome Permutation II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "267. Palindrome Permutation II.cpp"; sourceTree = "<group>"; };
@@ -192,6 +202,7 @@
 		36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "32. Longest Valid Parentheses.cpp"; sourceTree = "<group>"; };
 		36ECE6841E9712830064A628 /* GoogleCodeJam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoogleCodeJam; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ECE6871E9712830064A628 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "479. Largest Palindrome Product.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +247,7 @@
 				360685931F51363E0017EC53 /* 79. Word Search.cpp */,
 				3688CB051F72FD8500A20870 /* 85. Maximal Rectangle.cpp */,
 				3688CB151F74349A00A20870 /* 99. Recover Binary Search Tree.cpp */,
+				0A79B31C1F7584FE0025CBAB /* 120. Triangle.cpp */,
 				36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */,
 				3688CB0F1F73010B00A20870 /* 147. Insertion Sort List.cpp */,
 				0A881B571F6B0E5C008CCA08 /* 156. Binary Tree Upside Down.cpp */,
@@ -249,6 +261,7 @@
 				360685901F5130B40017EC53 /* 212. Word Search II.cpp */,
 				3688CB111F7301EC00A20870 /* 220. Contains Duplicate III.cpp */,
 				0A881B681F6B0E5D008CCA08 /* 222. Count Complete Tree Nodes.cpp */,
+				3688CB171F749EF400A20870 /* 229. Majority Element II.cpp */,
 				0A881B541F6B0E5C008CCA08 /* 244. Shortest Word Distance II.cpp */,
 				0A881B501F6B0E5C008CCA08 /* 245. Shortest Word Distance III.cpp */,
 				0A881B4F1F6B0E5C008CCA08 /* 247. Strobogrammatic Number II.cpp */,
@@ -263,6 +276,7 @@
 				0A881B5A1F6B0E5C008CCA08 /* 269. Alien Dictionary.cpp */,
 				3680318F1F71D83B0002F47A /* 271. Encode and Decode Strings.cpp */,
 				0A881B691F6B0E5D008CCA08 /* 272. Closest Binary Search Tree Value II.cpp */,
+				0A79B31A1F756C450025CBAB /* 279. Perfect Squares.cpp */,
 				0A881B581F6B0E5C008CCA08 /* 281. Zigzag Iterator.cpp */,
 				3680318A1F71D83B0002F47A /* 285. Inorder Successor in BST.cpp */,
 				3680318E1F71D83B0002F47A /* 286. Walls and Gates.cpp */,
@@ -271,6 +285,7 @@
 				3688CAFF1F720AB500A20870 /* 294. Flip Game II.cpp */,
 				0A881B5D1F6B0E5D008CCA08 /* 296. Best Meeting Point.cpp */,
 				3688CB011F72BFEB00A20870 /* 298. Binary Tree Longest Consecutive Sequence.cpp */,
+				0A79B31E1F7589C90025CBAB /* 306. Additive Number.cpp */,
 				0A881B5B1F6B0E5D008CCA08 /* 311. Sparse Matrix Multiplication.cpp */,
 				3688CB031F72FB5100A20870 /* 314. Binary Tree Vertical Order Traversal.cpp */,
 				3688CB131F73178000A20870 /* 320. Generalized Abbreviation.cpp */,
@@ -283,6 +298,7 @@
 				0A881B531F6B0E5C008CCA08 /* 439. Ternary Expression Parser.cpp */,
 				0A881B521F6B0E5C008CCA08 /* 444. Sequence Reconstruction.cpp */,
 				0A881B511F6B0E5C008CCA08 /* 469. Convex Polygon.cpp */,
+				36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */,
 				360685A11F51F06B0017EC53 /* 508. Most Frequent Subtree Sum.cpp */,
 				3688CB0B1F72FF2000A20870 /* 540. Single Element in a Sorted Array.cpp */,
 				0A881B6B1F6B0E5D008CCA08 /* 547. Friend Circles   Add to List 547. Friend Circles 547. Friend Circles 547. Friend Circles 547. Friend Circle.cpp */,
@@ -302,13 +318,14 @@
 				368031901F71D83B0002F47A /* 678. Valid Parenthesis String.cpp */,
 				3680318C1F71D83B0002F47A /* 679. 24 Game.cpp */,
 				0A881B8D1F6E09FA008CCA08 /* 680. Valid Palindrome II.cpp */,
+				36070DA21F7747A000B98D0E /* 681. Next Closest Time.cpp */,
+				36070DA01F7743A300B98D0E /* 682. Baseball Game.cpp */,
+				364EBD061F78078E0085505C /* 683. K Empty Slots.cpp */,
+				36070DA41F77481800B98D0E /* 684. Redundant Connection.cpp */,
+				36070D9F1F770A2000B98D0E /* Analyse - 32. Longest Valid Parentheses.rtf */,
 				360685951F5136ED0017EC53 /* FindMaxAverage.cpp */,
 				360685921F5130DE0017EC53 /* Header.h */,
 				36ECE6871E9712830064A628 /* main.cpp */,
-				3688CB171F749EF400A20870 /* 229. Majority Element II.cpp */,
-				0A79B31A1F756C450025CBAB /* 279. Perfect Squares.cpp */,
-				0A79B31C1F7584FE0025CBAB /* 120. Triangle.cpp */,
-				0A79B31E1F7589C90025CBAB /* 306. Additive Number.cpp */,
 			);
 			path = GoogleCodeJam;
 			sourceTree = "<group>";
@@ -397,6 +414,7 @@
 				0A881B7D1F6B0E5D008CCA08 /* 253. Meeting Rooms II.cpp in Sources */,
 				0A881B871F6B0E5D008CCA08 /* 34. Search for a Range.cpp in Sources */,
 				360685911F5130B40017EC53 /* 212. Word Search II.cpp in Sources */,
+				36FA03BB1F78606400DE09CA /* 479. Largest Palindrome Product.cpp in Sources */,
 				3688CB161F74349A00A20870 /* 99. Recover Binary Search Tree.cpp in Sources */,
 				0A881B741F6B0E5D008CCA08 /* 439. Ternary Expression Parser.cpp in Sources */,
 				3688CB041F72FB5100A20870 /* 314. Binary Tree Vertical Order Traversal.cpp in Sources */,
@@ -413,6 +431,7 @@
 				0A881B711F6B0E5D008CCA08 /* 245. Shortest Word Distance III.cpp in Sources */,
 				36D18A701F561E0F0017032F /* 207. Course Schedule.cpp in Sources */,
 				368031991F71D83B0002F47A /* 271. Encode and Decode Strings.cpp in Sources */,
+				36070DA31F7747A000B98D0E /* 681. Next Closest Time.cpp in Sources */,
 				0A881B7E1F6B0E5D008CCA08 /* 296. Best Meeting Point.cpp in Sources */,
 				0A881B6E1F6B0E5D008CCA08 /* 676. Implement Magic Dictionary.cpp in Sources */,
 				360685961F5136ED0017EC53 /* FindMaxAverage.cpp in Sources */,
@@ -429,6 +448,7 @@
 				0A881B851F6B0E5D008CCA08 /* 324. Wiggle Sort II.cpp in Sources */,
 				3606859E1F51C98D0017EC53 /* 250. Count Univalue Subtrees.cpp in Sources */,
 				3688CAFE1F7200B100A20870 /* 288. Unique Word Abbreviation.cpp in Sources */,
+				36070DA51F77481800B98D0E /* 684. Redundant Connection.cpp in Sources */,
 				0A881B801F6B0E5D008CCA08 /* 251. Flatten 2D Vector.cpp in Sources */,
 				3680319A1F71D83B0002F47A /* 678. Valid Parenthesis String.cpp in Sources */,
 				360685A21F51F06B0017EC53 /* 508. Most Frequent Subtree Sum.cpp in Sources */,
@@ -441,6 +461,7 @@
 				360685941F51363E0017EC53 /* 79. Word Search.cpp in Sources */,
 				0A79B31F1F7589C90025CBAB /* 306. Additive Number.cpp in Sources */,
 				0A881B7F1F6B0E5D008CCA08 /* 325. Maximum Size Subarray Sum Equals k.cpp in Sources */,
+				364EBD071F78078E0085505C /* 683. K Empty Slots.cpp in Sources */,
 				368031961F71D83B0002F47A /* 679. 24 Game.cpp in Sources */,
 				0A881B6D1F6B0E5D008CCA08 /* 673. Number of Longest Increasing Subsequence.cpp in Sources */,
 				368031921F71D83B0002F47A /* 254. Factor Combinations.cpp in Sources */,
@@ -452,6 +473,7 @@
 				0A881B721F6B0E5D008CCA08 /* 469. Convex Polygon.cpp in Sources */,
 				0A881B7C1F6B0E5D008CCA08 /* 311. Sparse Matrix Multiplication.cpp in Sources */,
 				0A881B8B1F6B0E5D008CCA08 /* 71. Simplify Path.cpp in Sources */,
+				36070DA11F7743A300B98D0E /* 682. Baseball Game.cpp in Sources */,
 				36D18A6E1F550BC40017032F /* 45. Jump Game II.cpp in Sources */,
 				3688CB061F72FD8500A20870 /* 85. Maximal Rectangle.cpp in Sources */,
 			);
