@@ -96,6 +96,9 @@
 		36D18A7A1F57A8660017032F /* 32. Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */; };
 		36ECE6881E9712830064A628 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36ECE6871E9712830064A628 /* main.cpp */; };
 		36FA03BB1F78606400DE09CA /* 479. Largest Palindrome Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */; };
+		36FA03BD1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03BC1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp */; };
+		36FA03BF1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03BE1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp */; };
+		36FA03C11F78B3D400DE09CA /* 164. Maximum Gap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03C01F78B3D400DE09CA /* 164. Maximum Gap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -203,6 +206,9 @@
 		36ECE6841E9712830064A628 /* GoogleCodeJam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoogleCodeJam; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ECE6871E9712830064A628 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "479. Largest Palindrome Product.cpp"; sourceTree = "<group>"; };
+		36FA03BC1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "617. Merge Two Binary Trees.cpp"; sourceTree = "<group>"; };
+		36FA03BE1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "128. Longest Consecutive Sequence.cpp"; sourceTree = "<group>"; };
+		36FA03C01F78B3D400DE09CA /* 164. Maximum Gap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "164. Maximum Gap.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,12 +254,14 @@
 				3688CB051F72FD8500A20870 /* 85. Maximal Rectangle.cpp */,
 				3688CB151F74349A00A20870 /* 99. Recover Binary Search Tree.cpp */,
 				0A79B31C1F7584FE0025CBAB /* 120. Triangle.cpp */,
+				36FA03BE1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp */,
 				36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */,
 				3688CB0F1F73010B00A20870 /* 147. Insertion Sort List.cpp */,
 				0A881B571F6B0E5C008CCA08 /* 156. Binary Tree Upside Down.cpp */,
 				0A881B601F6B0E5D008CCA08 /* 159. Longest Substring with At Most Two Distinct Characters.cpp */,
 				0A881B591F6B0E5C008CCA08 /* 161. One Edit Distance.cpp */,
 				0A881B561F6B0E5C008CCA08 /* 163. Missing Ranges.cpp */,
+				36FA03C01F78B3D400DE09CA /* 164. Maximum Gap.cpp */,
 				0A881B551F6B0E5C008CCA08 /* 186. Reverse Words in a String II.cpp */,
 				3606859B1F51381E0017EC53 /* 187. Repeated DNA Sequences.cpp */,
 				36D18A6F1F561E0F0017032F /* 207. Course Schedule.cpp */,
@@ -304,6 +312,7 @@
 				0A881B6B1F6B0E5D008CCA08 /* 547. Friend Circles   Add to List 547. Friend Circles 547. Friend Circles 547. Friend Circles 547. Friend Circle.cpp */,
 				0A881B611F6B0E5D008CCA08 /* 567. Permutation in String.cpp */,
 				3606859F1F51D3290017EC53 /* 572. Subtree of Another Tree.cpp */,
+				36FA03BC1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp */,
 				36D18A671F54C5520017032F /* 621. Task Scheduler.cpp */,
 				36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */,
 				360685A51F5258B10017EC53 /* 665. Non-decreasing Array.cpp */,
@@ -393,6 +402,7 @@
 				368031951F71D83B0002F47A /* 677. Map Sum Pairs.cpp in Sources */,
 				36D18A6C1F5503C70017032F /* 134. Gas Station.cpp in Sources */,
 				0A881B781F6B0E5D008CCA08 /* 156. Binary Tree Upside Down.cpp in Sources */,
+				36FA03BD1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp in Sources */,
 				0A881B831F6B0E5D008CCA08 /* 209. Minimum Size Subarray Sum.cpp in Sources */,
 				3606859C1F51381E0017EC53 /* 187. Repeated DNA Sequences.cpp in Sources */,
 				36D18A781F57A5AF0017032F /* 657. Judge Route Circle.cpp in Sources */,
@@ -405,6 +415,7 @@
 				36D18A6A1F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp in Sources */,
 				360685A01F51D3290017EC53 /* 572. Subtree of Another Tree.cpp in Sources */,
 				0A881B6F1F6B0E5D008CCA08 /* 674. Longest Continuous Increasing Subsequence.cpp in Sources */,
+				36FA03C11F78B3D400DE09CA /* 164. Maximum Gap.cpp in Sources */,
 				0A881B891F6B0E5D008CCA08 /* 222. Count Complete Tree Nodes.cpp in Sources */,
 				3606859A1F5137B80017EC53 /* 289. Game of Life.cpp in Sources */,
 				36D18A741F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp in Sources */,
@@ -437,6 +448,7 @@
 				360685961F5136ED0017EC53 /* FindMaxAverage.cpp in Sources */,
 				0A881B8A1F6B0E5D008CCA08 /* 272. Closest Binary Search Tree Value II.cpp in Sources */,
 				368031911F71D83B0002F47A /* 259. 3Sum Smaller.cpp in Sources */,
+				36FA03BF1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp in Sources */,
 				3688CB0A1F72FEDE00A20870 /* 72. Edit Distance.cpp in Sources */,
 				3688CB021F72BFEB00A20870 /* 298. Binary Tree Longest Consecutive Sequence.cpp in Sources */,
 				0A881B7A1F6B0E5D008CCA08 /* 161. One Edit Distance.cpp in Sources */,

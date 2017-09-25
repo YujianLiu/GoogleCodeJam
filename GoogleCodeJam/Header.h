@@ -216,6 +216,6 @@ int minimumTotal(vector<vector<int>>& triangle);
 //vector<int> findRedundantConnection(vector<vector<int>>& edges);
 int kEmptySlots(vector<int>& flowers, int k);
 string nextClosestTime(string time);
-
-
+int longestConsecutive_128(vector<int>& nums);
+int maximumGap(vector<int>& nums);
 #endif /* Header_h */
