@@ -209,6 +209,8 @@
 		36FA03BC1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "617. Merge Two Binary Trees.cpp"; sourceTree = "<group>"; };
 		36FA03BE1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "128. Longest Consecutive Sequence.cpp"; sourceTree = "<group>"; };
 		36FA03C01F78B3D400DE09CA /* 164. Maximum Gap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "164. Maximum Gap.cpp"; sourceTree = "<group>"; };
+		36FA03C21F7AA28400DE09CA /* Analyse 34. Search for a Range.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse 34. Search for a Range.rtf"; sourceTree = "<group>"; };
+		36FA03C31F7AE71E00DE09CA /* Analyse - 45. Jump Game II.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse - 45. Jump Game II.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +337,8 @@
 				360685951F5136ED0017EC53 /* FindMaxAverage.cpp */,
 				360685921F5130DE0017EC53 /* Header.h */,
 				36ECE6871E9712830064A628 /* main.cpp */,
+				36FA03C21F7AA28400DE09CA /* Analyse 34. Search for a Range.rtf */,
+				36FA03C31F7AE71E00DE09CA /* Analyse - 45. Jump Game II.rtf */,
 			);
 			path = GoogleCodeJam;
 			sourceTree = "<group>";
