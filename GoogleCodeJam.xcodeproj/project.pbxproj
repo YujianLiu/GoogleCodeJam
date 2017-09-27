@@ -85,6 +85,7 @@
 		3688CB141F73178000A20870 /* 320. Generalized Abbreviation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3688CB131F73178000A20870 /* 320. Generalized Abbreviation.cpp */; };
 		3688CB161F74349A00A20870 /* 99. Recover Binary Search Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3688CB151F74349A00A20870 /* 99. Recover Binary Search Tree.cpp */; };
 		3688CB181F749EF400A20870 /* 229. Majority Element II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3688CB171F749EF400A20870 /* 229. Majority Element II.cpp */; };
+		369F96B41F7B534F00DCECA9 /* Analyse Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369F96B31F7B534F00DCECA9 /* Analyse Test.cpp */; };
 		36D18A681F54C5520017032F /* 621. Task Scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A671F54C5520017032F /* 621. Task Scheduler.cpp */; };
 		36D18A6A1F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A691F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp */; };
 		36D18A6C1F5503C70017032F /* 134. Gas Station.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */; };
@@ -166,7 +167,7 @@
 		360685A71F525F720017EC53 /* 666. Path Sum IV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "666. Path Sum IV.cpp"; sourceTree = "<group>"; };
 		360685AC1F5274330017EC53 /* 667. Beautiful Arrangement II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "667. Beautiful Arrangement II.cpp"; sourceTree = "<group>"; };
 		360685AE1F527B930017EC53 /* 668. Kth Smallest Number in Multiplication Table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "668. Kth Smallest Number in Multiplication Table.cpp"; sourceTree = "<group>"; };
-		36070D9F1F770A2000B98D0E /* Analyse - 32. Longest Valid Parentheses.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse - 32. Longest Valid Parentheses.rtf"; sourceTree = "<group>"; };
+		36070D9F1F770A2000B98D0E /* Analyse 32. Longest Valid Parentheses.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse 32. Longest Valid Parentheses.rtf"; sourceTree = "<group>"; };
 		36070DA01F7743A300B98D0E /* 682. Baseball Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "682. Baseball Game.cpp"; sourceTree = "<group>"; };
 		36070DA21F7747A000B98D0E /* 681. Next Closest Time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "681. Next Closest Time.cpp"; sourceTree = "<group>"; };
 		36070DA41F77481800B98D0E /* 684. Redundant Connection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "684. Redundant Connection.cpp"; sourceTree = "<group>"; };
@@ -194,6 +195,8 @@
 		3688CB131F73178000A20870 /* 320. Generalized Abbreviation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "320. Generalized Abbreviation.cpp"; sourceTree = "<group>"; };
 		3688CB151F74349A00A20870 /* 99. Recover Binary Search Tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "99. Recover Binary Search Tree.cpp"; sourceTree = "<group>"; };
 		3688CB171F749EF400A20870 /* 229. Majority Element II.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "229. Majority Element II.cpp"; sourceTree = "<group>"; };
+		369F96B21F7B38D300DCECA9 /* Analyse 57. Insert Interval.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse 57. Insert Interval.rtf"; sourceTree = "<group>"; };
+		369F96B31F7B534F00DCECA9 /* Analyse Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Analyse Test.cpp"; sourceTree = "<group>"; };
 		36D18A671F54C5520017032F /* 621. Task Scheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "621. Task Scheduler.cpp"; sourceTree = "<group>"; };
 		36D18A691F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "358. Rearrange String k Distance Apart.cpp"; sourceTree = "<group>"; };
 		36D18A6B1F5503C70017032F /* 134. Gas Station.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "134. Gas Station.cpp"; sourceTree = "<group>"; };
@@ -210,7 +213,7 @@
 		36FA03BE1F789DB000DE09CA /* 128. Longest Consecutive Sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "128. Longest Consecutive Sequence.cpp"; sourceTree = "<group>"; };
 		36FA03C01F78B3D400DE09CA /* 164. Maximum Gap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "164. Maximum Gap.cpp"; sourceTree = "<group>"; };
 		36FA03C21F7AA28400DE09CA /* Analyse 34. Search for a Range.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse 34. Search for a Range.rtf"; sourceTree = "<group>"; };
-		36FA03C31F7AE71E00DE09CA /* Analyse - 45. Jump Game II.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse - 45. Jump Game II.rtf"; sourceTree = "<group>"; };
+		36FA03C31F7AE71E00DE09CA /* Analyse 45. Jump Game II.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Analyse 45. Jump Game II.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,12 +336,14 @@
 				36070DA01F7743A300B98D0E /* 682. Baseball Game.cpp */,
 				364EBD061F78078E0085505C /* 683. K Empty Slots.cpp */,
 				36070DA41F77481800B98D0E /* 684. Redundant Connection.cpp */,
-				36070D9F1F770A2000B98D0E /* Analyse - 32. Longest Valid Parentheses.rtf */,
+				36070D9F1F770A2000B98D0E /* Analyse 32. Longest Valid Parentheses.rtf */,
+				36FA03C21F7AA28400DE09CA /* Analyse 34. Search for a Range.rtf */,
+				36FA03C31F7AE71E00DE09CA /* Analyse 45. Jump Game II.rtf */,
+				369F96B21F7B38D300DCECA9 /* Analyse 57. Insert Interval.rtf */,
+				369F96B31F7B534F00DCECA9 /* Analyse Test.cpp */,
 				360685951F5136ED0017EC53 /* FindMaxAverage.cpp */,
 				360685921F5130DE0017EC53 /* Header.h */,
 				36ECE6871E9712830064A628 /* main.cpp */,
-				36FA03C21F7AA28400DE09CA /* Analyse 34. Search for a Range.rtf */,
-				36FA03C31F7AE71E00DE09CA /* Analyse - 45. Jump Game II.rtf */,
 			);
 			path = GoogleCodeJam;
 			sourceTree = "<group>";
@@ -418,6 +423,7 @@
 				3688CB081F72FE1700A20870 /* 420. Strong Password Checker.cpp in Sources */,
 				36D18A6A1F54F36E0017032F /* 358. Rearrange String k Distance Apart.cpp in Sources */,
 				360685A01F51D3290017EC53 /* 572. Subtree of Another Tree.cpp in Sources */,
+				369F96B41F7B534F00DCECA9 /* Analyse Test.cpp in Sources */,
 				0A881B6F1F6B0E5D008CCA08 /* 674. Longest Continuous Increasing Subsequence.cpp in Sources */,
 				36FA03C11F78B3D400DE09CA /* 164. Maximum Gap.cpp in Sources */,
 				0A881B891F6B0E5D008CCA08 /* 222. Count Complete Tree Nodes.cpp in Sources */,

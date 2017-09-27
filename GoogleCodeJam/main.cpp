@@ -602,18 +602,19 @@ int main()
     vector<int> m = makeVector();
     vector<vector<int>> mm = {{4,1},{3,5},{5,2},{4,2},{1,3}};
     
-   /* auto answer = searchRange(m, 8);
-    vector<Interval> intervals;
-    for (int i = 0; i < 5; ++i) {
-        Interval i1;
-        cin >> i1.start >> i1.end;
-        intervals.push_back(i1);
-    }
-    
-    Interval newInterval(4, 9);
+   // auto answer = searchRange(m, 8);
     
     
-    vector<Interval> result = insert(intervals, newInterval);*/
+    Interval i1(0,6), i2(9, 16), i3(17, 17);
+    vector<Interval> intervals{i1, i2, i3};
+        
+    
+    
+    
+    Interval newInterval(6, 11);
+    
+    
+    vector<Interval> result = test(intervals, newInterval);
    
     vector<string> words;
     words.push_back("practice");
@@ -628,7 +629,7 @@ int main()
     //cout << obj.sum("ap");
     
    
-    cout << maximumGap(m);
+    //cout << maximumGap(m);
     
     
     return 0;
