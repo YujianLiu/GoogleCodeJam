@@ -614,7 +614,7 @@ int main()
     Interval newInterval(6, 11);
     
     
-    vector<Interval> result = test(intervals, newInterval);
+    //vector<Interval> result = test(intervals, newInterval);
    
     vector<string> words;
     words.push_back("practice");
@@ -627,10 +627,10 @@ int main()
     MapSum obj = MapSum();
      obj.insert("apple", 3);
     //cout << obj.sum("ap");
-    
+    ListNode l1(5), l2(5);
    
     //cout << maximumGap(m);
-    
+    cout<< lengthOfLongestSubstring("pwwkew");
     
     return 0;
 }

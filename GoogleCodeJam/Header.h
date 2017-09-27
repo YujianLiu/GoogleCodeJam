@@ -218,6 +218,7 @@ int kEmptySlots(vector<int>& flowers, int k);
 string nextClosestTime(string time);
 int longestConsecutive_128(vector<int>& nums);
 int maximumGap(vector<int>& nums);
-
+ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 vector<Interval> test(vector<Interval>& intervals, Interval newInterval);
+int lengthOfLongestSubstring(string s);
 #endif /* Header_h */
