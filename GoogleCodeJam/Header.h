@@ -221,4 +221,7 @@ int maximumGap(vector<int>& nums);
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 vector<Interval> test(vector<Interval>& intervals, Interval newInterval);
 int lengthOfLongestSubstring(string s);
+double knightProbability(int N, int K, int r, int c);
+int longestUnivaluePath(TreeNode* root);
+vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k);
 #endif /* Header_h */

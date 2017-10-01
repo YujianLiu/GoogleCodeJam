@@ -99,6 +99,10 @@
 		36D18A741F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A731F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp */; };
 		36D18A781F57A5AF0017032F /* 657. Judge Route Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */; };
 		36D18A7A1F57A8660017032F /* 32. Longest Valid Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */; };
+		36D837791F807D0A0011BB83 /* 686. Repeated String Match.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D837781F807D0A0011BB83 /* 686. Repeated String Match.cpp */; };
+		36D8377B1F8080790011BB83 /* 687. Longest Univalue Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D8377A1F8080790011BB83 /* 687. Longest Univalue Path.cpp */; };
+		36D8377D1F8083970011BB83 /* 688. Knight Probability in Chessboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D8377C1F8083970011BB83 /* 688. Knight Probability in Chessboard.cpp */; };
+		36D8377F1F812EF50011BB83 /* 689. Maximum Sum of 3 Non-Overlapping Subarrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D8377E1F812EF50011BB83 /* 689. Maximum Sum of 3 Non-Overlapping Subarrays.cpp */; };
 		36ECE6881E9712830064A628 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36ECE6871E9712830064A628 /* main.cpp */; };
 		36FA03BB1F78606400DE09CA /* 479. Largest Palindrome Product.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */; };
 		36FA03BD1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36FA03BC1F7899B600DE09CA /* 617. Merge Two Binary Trees.cpp */; };
@@ -218,6 +222,10 @@
 		36D18A731F5719A10017032F /* 323. Number of Connected Components in an Undirected Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "323. Number of Connected Components in an Undirected Graph.cpp"; sourceTree = "<group>"; };
 		36D18A771F57A5AF0017032F /* 657. Judge Route Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "657. Judge Route Circle.cpp"; sourceTree = "<group>"; };
 		36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "32. Longest Valid Parentheses.cpp"; sourceTree = "<group>"; };
+		36D837781F807D0A0011BB83 /* 686. Repeated String Match.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "686. Repeated String Match.cpp"; sourceTree = "<group>"; };
+		36D8377A1F8080790011BB83 /* 687. Longest Univalue Path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "687. Longest Univalue Path.cpp"; sourceTree = "<group>"; };
+		36D8377C1F8083970011BB83 /* 688. Knight Probability in Chessboard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "688. Knight Probability in Chessboard.cpp"; sourceTree = "<group>"; };
+		36D8377E1F812EF50011BB83 /* 689. Maximum Sum of 3 Non-Overlapping Subarrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "689. Maximum Sum of 3 Non-Overlapping Subarrays.cpp"; sourceTree = "<group>"; };
 		36ECE6841E9712830064A628 /* GoogleCodeJam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GoogleCodeJam; sourceTree = BUILT_PRODUCTS_DIR; };
 		36ECE6871E9712830064A628 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		36FA03BA1F78606400DE09CA /* 479. Largest Palindrome Product.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "479. Largest Palindrome Product.cpp"; sourceTree = "<group>"; };
@@ -260,6 +268,8 @@
 			children = (
 				369F96B51F7BE7B500DCECA9 /* 1. Two Sum.cpp */,
 				369F96B81F7BF5CC00DCECA9 /* 2. Add Two Numbers.cpp */,
+				369F96BC1F7C030400DCECA9 /* 3. Longest Substring Without Repeating Characters.cpp */,
+				369F96BF1F7C0AD600DCECA9 /* 4. Median of Two Sorted Arrays.cpp */,
 				36D18A791F57A8660017032F /* 32. Longest Valid Parentheses.cpp */,
 				0A881B661F6B0E5D008CCA08 /* 34. Search for a Range.cpp */,
 				36D18A6D1F550BC40017032F /* 45. Jump Game II.cpp */,
@@ -350,8 +360,13 @@
 				36070DA01F7743A300B98D0E /* 682. Baseball Game.cpp */,
 				364EBD061F78078E0085505C /* 683. K Empty Slots.cpp */,
 				36070DA41F77481800B98D0E /* 684. Redundant Connection.cpp */,
+				36D837781F807D0A0011BB83 /* 686. Repeated String Match.cpp */,
+				36D8377A1F8080790011BB83 /* 687. Longest Univalue Path.cpp */,
+				36D8377C1F8083970011BB83 /* 688. Knight Probability in Chessboard.cpp */,
 				369F96B71F7BE85500DCECA9 /* Analyse 1.Two Sum.rtf */,
 				369F96BA1F7BF61300DCECA9 /* Analyse 2. Add Two Numbers.rtf */,
+				369F96BE1F7C035E00DCECA9 /* Analyse 3. Longest Substring Without Repeating Characters.rtf */,
+				369F96C11F7C0CE500DCECA9 /* Analyse 4. Median of Two Sorted Arrays.rtf */,
 				36070D9F1F770A2000B98D0E /* Analyse 32. Longest Valid Parentheses.rtf */,
 				36FA03C21F7AA28400DE09CA /* Analyse 34. Search for a Range.rtf */,
 				36FA03C31F7AE71E00DE09CA /* Analyse 45. Jump Game II.rtf */,
@@ -360,10 +375,7 @@
 				360685951F5136ED0017EC53 /* FindMaxAverage.cpp */,
 				360685921F5130DE0017EC53 /* Header.h */,
 				36ECE6871E9712830064A628 /* main.cpp */,
-				369F96BC1F7C030400DCECA9 /* 3. Longest Substring Without Repeating Characters.cpp */,
-				369F96BE1F7C035E00DCECA9 /* Analyse 3. Longest Substring Without Repeating Characters.rtf */,
-				369F96BF1F7C0AD600DCECA9 /* 4. Median of Two Sorted Arrays.cpp */,
-				369F96C11F7C0CE500DCECA9 /* Analyse 4. Median of Two Sorted Arrays.rtf */,
+				36D8377E1F812EF50011BB83 /* 689. Maximum Sum of 3 Non-Overlapping Subarrays.cpp */,
 			);
 			path = GoogleCodeJam;
 			sourceTree = "<group>";
@@ -463,15 +475,19 @@
 				3688CB041F72FB5100A20870 /* 314. Binary Tree Vertical Order Traversal.cpp in Sources */,
 				0A881B731F6B0E5D008CCA08 /* 444. Sequence Reconstruction.cpp in Sources */,
 				0A881B751F6B0E5D008CCA08 /* 244. Shortest Word Distance II.cpp in Sources */,
+				36D837791F807D0A0011BB83 /* 686. Repeated String Match.cpp in Sources */,
 				0A881B6C1F6B0E5D008CCA08 /* 675. Cut Off Trees for Golf Event.cpp in Sources */,
 				368031971F71D83B0002F47A /* 255. Verify Preorder Sequence in Binary Search Tree.cpp in Sources */,
 				360685A61F5258B10017EC53 /* 665. Non-decreasing Array.cpp in Sources */,
 				360685A41F5214620017EC53 /* 76. Minimum Window Substring.cpp in Sources */,
 				0A881B8E1F6E09FA008CCA08 /* 680. Valid Palindrome II.cpp in Sources */,
+				36D8377F1F812EF50011BB83 /* 689. Maximum Sum of 3 Non-Overlapping Subarrays.cpp in Sources */,
 				3688CB141F73178000A20870 /* 320. Generalized Abbreviation.cpp in Sources */,
 				3688CB0C1F72FF2000A20870 /* 540. Single Element in a Sorted Array.cpp in Sources */,
+				36D8377D1F8083970011BB83 /* 688. Knight Probability in Chessboard.cpp in Sources */,
 				0A881B771F6B0E5D008CCA08 /* 163. Missing Ranges.cpp in Sources */,
 				0A881B711F6B0E5D008CCA08 /* 245. Shortest Word Distance III.cpp in Sources */,
+				36D8377B1F8080790011BB83 /* 687. Longest Univalue Path.cpp in Sources */,
 				36D18A701F561E0F0017032F /* 207. Course Schedule.cpp in Sources */,
 				368031991F71D83B0002F47A /* 271. Encode and Decode Strings.cpp in Sources */,
 				36070DA31F7747A000B98D0E /* 681. Next Closest Time.cpp in Sources */,
